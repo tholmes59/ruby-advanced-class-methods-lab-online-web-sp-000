@@ -21,7 +21,20 @@ class Song
     song_instance = self.new 
     song_instance.name = name 
     song_instance.save
+  end 
+  
+  def self.find_by_name(name)
     
   end 
+  
+  def self.find_or_create_by_name(name)
+    
+  end
+  
+  def self.alphabetical
+    
+  end
+  
+  def self.
   
 end
