@@ -23,6 +23,8 @@ class Song
     song_instance
   end 
   
+  def self.
+  
   def self.find_by_name(name)
     
   end 
