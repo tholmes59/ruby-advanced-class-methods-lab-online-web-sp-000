@@ -39,6 +39,10 @@ class Song
     
   end
   
-  def self.
+  def self.create_from_filename
+    
+  end
+  
+  def self 
   
 end
