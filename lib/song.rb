@@ -20,6 +20,7 @@ class Song
     song_instance = self.new 
     song_instance.name = name 
     song_instance.save
+    song_instance
   end 
   
   def self.find_by_name(name)
