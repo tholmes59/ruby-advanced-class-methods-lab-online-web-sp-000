@@ -20,7 +20,7 @@ class Song
     song_instance = self.new 
     song_instance.name = name 
     @@all << song_instance
-    song_instance.each {|song| song.name}
+    @@all.each {|song| song.name}
   end 
   
   def self.find_by_name(name)
