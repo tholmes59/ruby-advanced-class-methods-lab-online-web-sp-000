@@ -49,8 +49,8 @@ class Song
   def self.new_from_filename(name)
     song_instance = self.new 
     song_instance.name = name.chomp('.mp3').split('-') 
-    song_instance.each do |artist, name|
-      name
+    song_instance.each do |x|
+      x[1]
     end
     song_instance.save
     song_instance
